@@ -1,6 +1,6 @@
 import React from "react";
 
-const Accordion = ({ title, description, handleClick, isActive }) => {
+export const Accordion = ({ title, description, handleClick, isActive }) => {
   return (
     <div className='accordion'>
       <div
@@ -17,5 +17,3 @@ const Accordion = ({ title, description, handleClick, isActive }) => {
     </div>
   );
 };
-
-export default Accordion;

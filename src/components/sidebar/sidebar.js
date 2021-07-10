@@ -1,8 +1,7 @@
 import React, { useContext, useRef, useState } from "react";
 import { DescriptionContext } from "../../context/description-context";
 import { useDescription } from "../../hooks/description-hook";
-import Accordion from "../Accordion/accordion";
-
+import { Accordion } from "../accordion/accordion";
 export const Sidebar = () => {
   const { keys } = useDescription();
 
