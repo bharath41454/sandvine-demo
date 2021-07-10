@@ -1,0 +1,25 @@
+.accordion {
+  .active {
+    color: @raven-primary;
+  }
+  .title {
+    position: relative;
+    cursor: pointer;
+    background-color: @darkslateblue-secondary;
+    padding: 5%;
+    text-align: center;
+    .placeholder {
+      position: absolute;
+      right: 5%;
+    }
+  }
+  .content {
+    text-align: left;
+    padding: 2% 2% 0 2%;
+    overflow: hidden;
+    display: -webkit-box;
+    word-wrap: break-word;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+}
